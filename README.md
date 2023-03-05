@@ -54,12 +54,12 @@ Switches to Quake window on every standby screen:
 
 ### Notes
  
---join function sends a sequence of keys that opens the console, writes /join,
+`--join` function sends a sequence of keys that opens the console, writes /join,
 presses Enter and closes the console. For this to work, Quake must be in a state where
 this sequence has a desired effect (i.e. with no console and no in-game menu open).
 
 To prevent the situation where the program would keep switching to Quake window when you
-try to alt-tab from it (when --noexit parameter is used), a switch is only made once
+try to alt-tab from it (when `--noexit` parameter is used), a switch is only made once
 during the match and once during the standby (then another might be done when the next
 match starts or the next stanby is reached).
 
