@@ -7,7 +7,7 @@ This script can come handy if you're on a FFA server with many maps in rotation 
 
 You can specify the maps that will trigger the switch if they're currently played.
 
-If the map rotation is sequential and not random, you can also set the maps that precede your preferred maps and the window will be brought to the forefront during the standby screen.
+If the map rotation is sequential and not random, you can also set the maps that precede your preferred maps and the window will be brought to the forefront during the standby screen so you don't miss the start of the match.
 
 There's also an option to auto-join.
 
