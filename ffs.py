@@ -131,7 +131,7 @@ def main():
 					if check_interval < 0.1:
 						check_interval = 0.1
 				else:
-					exit("\nError: Invalid value used to set interval")
+					sys.exit("\nError: Invalid value used to set interval")
 
 	if len(wanted_maps) == 0 and len(preceding_maps) == 0 and switch_before_next is False:
 		sys.exit("\nError: No preceding or wanted maps set, no switch-on-next option selected")
