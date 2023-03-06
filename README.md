@@ -25,7 +25,7 @@ This is a Windows-only script that works with ezQuake. It may work with other cl
 | :--- | :--- |
 | `-h`, `--help`      | show the help screen |
 | `-p`,&nbsp;`--preceding`      | list of the maps that precede the maps that you want to play - after Quake client reaches standby screen after one of these maps, switch is made; can be combined with `--wanted` (separated with commas or spaces)      |
-| `-w`, `--wanted`      | list of maps that you want to play - switches to Quake client if one of these maps is played; can be combined with `--preceding` (separated with commas or spaces)      |
+| `-w`, `--wanted`      | list of the maps that you want to play - switches to Quake client if one of these maps is played; can be combined with `--preceding` (separated with commas or spaces)      |
 | `-j`, `--join`      | send keys to join the game automatically (see note below)      |
 | `-n`, `--next`      | switch to Quake window on the next standby screen      |
 | `-e`, `--noexit`      | don't exit after switching      |
